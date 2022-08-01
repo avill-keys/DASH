@@ -14,4 +14,10 @@ The files found within this directory serve the following purpose:
 
 | Test case                                      | Description                                               |
 | ---------------------------------------------- | --------------------------------------------------------- |
-| [vxlan_1vpc_1ip](README.vxlan_1vpc_1ip.md)     | performance numbers for best case scenario                |
+| [vxlan_1vpc_1ip](./one-ip/README.md)           | minimum posible config                                    |
+| [vxlan_1vpc_1ip](./48k-ips/README.md)          | medium sized config                                       |
+| [vxlan_1vpc_1ip](./hero/README.md)             | full "Hero" test config                                   |
+
+
+
+
