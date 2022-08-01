@@ -14,9 +14,9 @@ The files found within this directory serve the following purpose:
 
 | Test case                                      | Description                                               |
 | ---------------------------------------------- | --------------------------------------------------------- |
-| [vxlan_1vpc_1ip](./one-ip/README.md)           | minimum posible config                                    |
-| [vxlan_1vpc_1ip](./48k-ips/README.md)          | medium sized config                                       |
-| [vxlan_1vpc_1ip](./hero/README.md)             | full "Hero" test config                                   |
+| [vxlan_1eni_1ip](./one-ip/README.md)           | minimum posible config                                    |
+| [vxlan_8eni_48k_ips](./48k-ips/README.md)      | medium sized config                                       |
+| [vxlan_8eni_hero](./hero/README.md)            | full "Hero" test config                                   |
 
 
 
