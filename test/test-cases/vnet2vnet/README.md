@@ -56,3 +56,24 @@ keep the flow expiration timer at `big number` and see how many flows can be ins
 
 # minimum posible config, cps test
 TBD
+
+
+
+# 48K IPs "baby hero" test, udp test
+this has full hero test config with 8 ENIs, 6 NSGs per ENI, 1000 ACL policies per NSG, with the only exception that it has only 1 prefix per ACL policy instead of ~200
+
+half of acls are allow half are deny with alternating IP's
+
+24K flows will be created over allowed IPs and 24K flows will be sent over the deny IP's
+
+this test will verify that:
+  - configuration can scale
+  - see the scale impact on performance from the minimum config
+  - see that allow/deny ACLs are respected
+
+# 48K IPs "baby hero" test, tcp test
+traffic will be sent over the 24K allowed IPs
+
+test will have full 5M+1M tcp sessions by makeing use of tcp ports
+
+connection rate value will be observed while maintaining 6M concurent sessions
