@@ -2,6 +2,7 @@ pytest
 tabulate
 pandas
 PyYAML
+macaddress
 
 # Keysight libs
 ixnetwork-restpy

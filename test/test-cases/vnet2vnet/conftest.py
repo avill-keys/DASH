@@ -64,7 +64,7 @@ def create_ixload_session_url(tbinfo):
         test_settings.gatewayPort = "8080"
         test_settings.httpRedirect = True
         test_settings.apiVersion = "v0"
-        test_settings.ixLoadVersion = "9.20.0.279"
+        test_settings.ixLoadVersion = "9.20.115.79"
 
         # aggregated 2ips
         slot1 = tg['tgen'][0]['interfaces'][0][1]
